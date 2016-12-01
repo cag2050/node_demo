@@ -3,7 +3,7 @@
  */
 var foo = {
     init:function(x){
-        console.log(111);
+        console.log(x);
     }
 };
 module.exports = foo;
