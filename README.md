@@ -4,5 +4,5 @@
 
 注意：---  
 webstorm修改文件，webpack-dev-server不自动编译刷新的解决办法：    
-“设置”--“系统设置”，选项“Use "safe write"(save changes to a temporary file first)”，不打勾。
+webstorm中，“Settings”--“Appearance & Behavior”--“System Settings”，选项“Use "safe write"(save changes to a temporary file first)”，不打勾。
 
