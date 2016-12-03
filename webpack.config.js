@@ -3,7 +3,7 @@
  */
 module.exports = {
     // 指定入口文件
-    entry: './src/js/path_demo.js',
+    entry: './src/js/fs_demo.js',
     // 启动webpack-dev-server后，你在目标文件夹中是看不到编译后的文件的,实时编译后的文件都保存到了内存中。
     output: {
         path: './dist/js',
@@ -11,5 +11,8 @@ module.exports = {
         // 因为webpack-dev-server伺服的文件是相对publicPath这个路径的。
         // publicPath: '/assets/',
         filename: 'bundle.js'
+    },
+    node: {
+        fs: "empty"
     }
 };
