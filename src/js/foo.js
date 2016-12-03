@@ -4,6 +4,8 @@
 var foo = {
     init:function(x){
         console.log(x);
+        console.log(x);
+        console.log(x);
     }
 };
 module.exports = foo;

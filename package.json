@@ -1,0 +1,23 @@
+{
+  "name": "node_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --inline --content-base ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cag2050/node_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cag2050/node_demo/issues"
+  },
+  "homepage": "https://github.com/cag2050/node_demo#readme",
+  "devDependencies": {
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
