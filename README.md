@@ -1,5 +1,4 @@
 # node_demo
-  
 1. 运行命令：npm start  
 2. 访问路径：http://localhost:8080/webpack-dev-server/index.html  
 
