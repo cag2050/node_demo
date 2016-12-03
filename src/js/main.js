@@ -1,6 +1,6 @@
 /**
  * Created by cag on 2016/12/2.
  */
-var foo = require("./foo"); // 引用文件 ./foo
+var foo = require("./foo"); // 寮曞叆鏂囦欢 ./foo
 foo.init("aaa");
 
