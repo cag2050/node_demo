@@ -11,11 +11,12 @@ module.exports = {
         // 因为webpack-dev-server伺服的文件是相对publicPath这个路径的。
         // publicPath: '/assets/',
         filename: 'bundle.js'
-    },
-    //target: "node",
-    //node: {
-    //    __filename: false,
-    //    __dirname: false,
-    //    fs: "empty"
-    //}
+    }
+    // target: 'node',
+    // context: __dirname,
+    // node: {
+    //     __filename: false,
+    //     __dirname: false,
+    //     // fs: "empty"
+    // }
 };
