@@ -6,7 +6,7 @@ let obj = {
 }
 
 console.log("准备写入文件");
-fs.writeFile('obj_str.js', obj.toString(), function (err) {
+fs.writeFile('obj_str.js', JSON.stringify(obj), function (err) {
     if (err) {
         return console.error(err);
     }

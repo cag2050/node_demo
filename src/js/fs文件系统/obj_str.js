@@ -1,1 +1,1 @@
-[object Object]
+{"name":"cag2050","age":30}
