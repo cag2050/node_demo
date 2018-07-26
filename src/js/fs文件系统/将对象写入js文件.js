@@ -2,11 +2,11 @@ var fs = require("fs");
 
 let obj = {
     name: 'cag2050',
-    age: 30
+    age: 300
 }
 
 console.log("准备写入文件");
-fs.writeFile('obj_str.js', JSON.stringify(obj), function (err) {
+fs.writeFile('./obj_str.json', JSON.stringify(obj), function (err) {
     if (err) {
         return console.error(err);
     }
