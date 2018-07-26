@@ -2,18 +2,18 @@ var fs = require("fs");
 
 let obj = {
     name: 'cag2050',
-    age: 300
+    age: 301
 }
 
 console.log("准备写入文件");
-fs.writeFile('./obj_str.json', JSON.stringify(obj), function (err) {
+fs.writeFile('obj_str.json', JSON.stringify(obj), function (err) {
     if (err) {
         return console.error(err);
     }
     console.log("数据写入成功！");
     console.log("--------我是分割线-------------")
     console.log("读取写入的数据！");
-    fs.readFile('obj_str.js', function (err, data) {
+    fs.readFile('obj_str.json', function (err, data) {
         if (err) {
             return console.error(err);
         }
